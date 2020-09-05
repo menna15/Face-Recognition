@@ -1,33 +1,33 @@
-c1=imresize(double(rgb2gray(imread('0002_1.jpg'))),[120 80]);
-c2=imresize(double(rgb2gray(imread('0002_2.jpg'))),[120 80]);
-c3=imresize(double(rgb2gray(imread('0002_3.jpg'))),[120 80]);
-c4=imresize(double(rgb2gray(imread('0002_4.jpg'))),[120 80]);
-c5=imresize(double(rgb2gray(imread('0002_5.jpg'))),[120 80]);
+c1=imresize(double(rgb2gray(imread('test1_1.jpg'))),[120 80]);
+c2=imresize(double(rgb2gray(imread('test1_2.jpg'))),[120 80]);
+c3=imresize(double(rgb2gray(imread('test1_3.jpg'))),[120 80]);
+c4=imresize(double(rgb2gray(imread('test1_4.jpg'))),[120 80]);
+c5=imresize(double(rgb2gray(imread('test1_5.jpg'))),[120 80]);
  
-e1=imresize(double(rgb2gray(imread('0000_00000001.jpg'))),[120 80]);
-e2=imresize(double(rgb2gray(imread('0000_00000002.jpg'))),[120 80]);
-e3=imresize(double(rgb2gray(imread('0000_00000003.jpg'))),[120 80]);
-e4=imresize(double(rgb2gray(imread('0000_00000004.jpg'))),[120 80]);
-e5=imresize(double(rgb2gray(imread('0000_00000005.jpg'))),[120 80]);
+e1=imresize(double(rgb2gray(imread('test2_00000001.jpg'))),[120 80]);
+e2=imresize(double(rgb2gray(imread('test2_00000002.jpg'))),[120 80]);
+e3=imresize(double(rgb2gray(imread('test2_00000003.jpg'))),[120 80]);
+e4=imresize(double(rgb2gray(imread('test2_00000004.jpg'))),[120 80]);
+e5=imresize(double(rgb2gray(imread('test2_00000005.jpg'))),[120 80]);
  
-u1=imresize(double(rgb2gray(imread('0001_00000001.jpg'))),[120 80]);
-u2=imresize(double(rgb2gray(imread('0001_00000002.jpg'))),[120 80]);
-u3=imresize(double(rgb2gray(imread('0001_00000003.jpg'))),[120 80]);
-u4=imresize(double(rgb2gray(imread('0001_00000004.jpg'))),[120 80]);
-u5=imresize(double(rgb2gray(imread('0001_00000005.jpg'))),[120 80]);
+u1=imresize(double(rgb2gray(imread('test3_00000001.jpg'))),[120 80]);
+u2=imresize(double(rgb2gray(imread('test3_00000002.jpg'))),[120 80]);
+u3=imresize(double(rgb2gray(imread('test3_00000003.jpg'))),[120 80]);
+u4=imresize(double(rgb2gray(imread('test3_00000004.jpg'))),[120 80]);
+u5=imresize(double(rgb2gray(imread('test3_00000005.jpg'))),[120 80]);
  
-n1=imresize(double(rgb2gray(imread('0003_00000001.jpg'))),[120 80]);
-n2=imresize(double(rgb2gray(imread('0003_00000002.jpg'))),[120 80]);
-n3=imresize(double(rgb2gray(imread('0003_00000003.jpg'))),[120 80]);
-n4=imresize(double(rgb2gray(imread('0003_00000004.jpg'))),[120 80]);
-n5=imresize(double(rgb2gray(imread('0003_00000005.jpg'))),[120 80]);
+n1=imresize(double(rgb2gray(imread('test4_00000001.jpg'))),[120 80]);
+n2=imresize(double(rgb2gray(imread('test4_00000002.jpg'))),[120 80]);
+n3=imresize(double(rgb2gray(imread('test4_00000003.jpg'))),[120 80]);
+n4=imresize(double(rgb2gray(imread('test4_00000004.jpg'))),[120 80]);
+n5=imresize(double(rgb2gray(imread('test4_00000005.jpg'))),[120 80]);
  
  
-z1=imresize(double(rgb2gray(imread('0004_1.jpg'))),[120 80]);
-z2=imresize(double(rgb2gray(imread('0004_2.jpg'))),[120 80]);
-z3=imresize(double(rgb2gray(imread('0004_3.jpg'))),[120 80]);
-z4=imresize(double(rgb2gray(imread('0004_4.jpg'))),[120 80]);
-z5=imresize(double(rgb2gray(imread('0004_5.jpg'))),[120 80]);
+z1=imresize(double(rgb2gray(imread('test5_1.jpg'))),[120 80]);
+z2=imresize(double(rgb2gray(imread('test5_2.jpg'))),[120 80]);
+z3=imresize(double(rgb2gray(imread('test5_3.jpg'))),[120 80]);
+z4=imresize(double(rgb2gray(imread('test5_4.jpg'))),[120 80]);
+z5=imresize(double(rgb2gray(imread('test5_5.jpg'))),[120 80]);
  
 T=[reshape(c1,1,120*80)
    reshape(c2,1,120*80)
