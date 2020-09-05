@@ -7,7 +7,7 @@ ____
 
 | **Steps**        | 
 | ------------- |
-| Read all trianing images      | 
+| Read all training images      | 
 | flatten image matrix to vector   |
 | find average face vector |
 | subtract every average face vector from every image vector |
